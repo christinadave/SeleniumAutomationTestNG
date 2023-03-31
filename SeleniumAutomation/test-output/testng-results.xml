@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[OrderFlowTest]]>
+    </line>
+    <line>
+      <![CDATA[OrderFlowTest]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-21T23:34:32 EET" name="Default suite" finished-at="2023-03-21T23:36:17 EET" duration-ms="105149">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T23:34:32 EET" name="Default test" finished-at="2023-03-21T23:36:17 EET" duration-ms="105149">
+      <class name="testcase.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:34:32 EET" name="setUp" finished-at="2023-03-21T23:34:51 EET" duration-ms="18441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginData(java.lang.String,java.lang.String)[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:34:51 EET" name="LoginData" data-provider="SLdata" finished-at="2023-03-21T23:35:03 EET" duration-ms="11917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:35:03 EET" name="tearDown" finished-at="2023-03-21T23:35:07 EET" duration-ms="4356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:35:07 EET" name="setUp" finished-at="2023-03-21T23:35:18 EET" duration-ms="11178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginData(java.lang.String,java.lang.String)[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:35:18 EET" name="LoginData" data-provider="SLdata" finished-at="2023-03-21T23:35:25 EET" duration-ms="6899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:35:25 EET" name="tearDown" finished-at="2023-03-21T23:35:28 EET" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:35:28 EET" name="setUp" finished-at="2023-03-21T23:35:37 EET" duration-ms="9368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginData(java.lang.String,java.lang.String)[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:35:37 EET" name="LoginData" data-provider="SLdata" finished-at="2023-03-21T23:35:44 EET" duration-ms="6803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.LoginTest@397fbdb]" started-at="2023-03-21T23:35:44 EET" name="tearDown" finished-at="2023-03-21T23:35:46 EET" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcase.LoginTest -->
+      <class name="testcase.OrderFlowTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.OrderFlowTest@7586beff]" started-at="2023-03-21T23:35:46 EET" name="setUp" finished-at="2023-03-21T23:35:56 EET" duration-ms="9642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orderflowTest()[pri:0, instance:testcase.OrderFlowTest@7586beff]" started-at="2023-03-21T23:35:56 EET" name="orderflowTest" finished-at="2023-03-21T23:35:59 EET" duration-ms="3489" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OrderFlowTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderflowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcase.OrderFlowTest@7586beff]" started-at="2023-03-21T23:35:59 EET" name="tearDown" finished-at="2023-03-21T23:36:02 EET" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcase.OrderFlowTest -->
+      <class name="utilities.Listeners">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:utilities.Listeners@815b41f]" started-at="2023-03-21T23:36:02 EET" name="setUp" finished-at="2023-03-21T23:36:11 EET" duration-ms="9497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orderflowTest()[pri:0, instance:utilities.Listeners@815b41f]" started-at="2023-03-21T23:36:11 EET" name="orderflowTest" finished-at="2023-03-21T23:36:14 EET" duration-ms="2887" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OrderFlowTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderflowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:utilities.Listeners@815b41f]" started-at="2023-03-21T23:36:14 EET" name="tearDown" finished-at="2023-03-21T23:36:17 EET" duration-ms="3361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- utilities.Listeners -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
